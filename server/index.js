@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use(morgan('dev')); // Logging
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/hotel-management', {
+mongoose.connect('mongodb+srv://Tharun:tharun123@cluster.x8wyt2y.mongodb.net/hotel-management', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
