@@ -3,7 +3,7 @@ import toast from 'react-hot-toast';
 
 // Create axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://hotelbooking-system.onrender.com',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',

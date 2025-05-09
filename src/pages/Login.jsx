@@ -42,7 +42,7 @@ function Login() {
   };
   
   return (
-    <div className="flex justify-center items-center py-8 animate-fade-in">
+    <div className="flex justify-center items-center py-8 animate-fade-in bg-gray-100 min-h-screen">
       <div className="w-full max-w-md">
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="bg-primary-700 text-white p-6 text-center">
